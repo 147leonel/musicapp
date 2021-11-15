@@ -1,0 +1,49 @@
+[
+    {
+        "model": "musicapp.album",
+        "pk": 1,
+        "fields": {
+            "nombre_album": "YHLQMDLG"
+        }
+    },
+    {
+        "model": "musicapp.album",
+        "pk": 2,
+        "fields": {
+            "nombre_album": "El ultimo tour del mundo"
+        }
+    },
+    {
+        "model": "musicapp.music",
+        "pk": 1,
+        "fields": {
+            "nombre": "La noche de anoche",
+            "duracion": "3:23",
+            "artista": "Bad Bunny",
+            "imagen_album": "https://i.scdn.co/image/ab67616d0000b273005ee342f4eef2cc6e8436ab",
+            "album": 2
+        }
+    },
+    {
+        "model": "musicapp.music",
+        "pk": 2,
+        "fields": {
+            "nombre": "Si veo a tu mamá",
+            "duracion": "2:50",
+            "artista": "Bad Bunny",
+            "imagen_album": "https://i.scdn.co/image/ab67616d0000b273548f7ec52da7313de0c5e4a0",
+            "album": 1
+        }
+    },
+    {
+        "model": "musicapp.music",
+        "pk": 3,
+        "fields": {
+            "nombre": "Te mudaste",
+            "duracion": "2:10",
+            "artista": "Bad Bunny",
+            "imagen_album": "https://i.scdn.co/image/ab67616d0000b273005ee342f4eef2cc6e8436ab",
+            "album": 2
+        }
+    }
+]
