@@ -4,7 +4,7 @@ class Album(models.Model):
     nombre_album = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name
+        return self.nombre_album
 class Music(models.Model):
     nombre = models.CharField(max_length=100)
     duracion = models.TextField()
@@ -15,4 +15,4 @@ class Music(models.Model):
     )
 
     def __str__(self):
-        return self.name
+        return self.nombre
